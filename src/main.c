@@ -14,6 +14,10 @@ int main(int argc, char *argv[])
         {
             print_help();
         }
+        else if (strcmp(argv[1], "-v") || strcmp(argv[1], "--version"))
+        {
+            print_version();
+        }
     }
 
     return 0;
